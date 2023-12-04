@@ -34,7 +34,7 @@ pipelineJob("Destroy-React-App"){
         daysToKeep(5)
         numToKeep(20)
     }
-    concurrentBuild(allowConcurrentBuild = false)
+    //concurrentBuild(allowConcurrentBuild = false)
     parameters {
       stringParam("UNIQUE_ANIMAL_IDENTIFIER", defaultValue = "lion", description = "Your unique animal identifier for this playground!")
     }
